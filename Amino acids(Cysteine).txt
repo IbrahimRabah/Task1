@@ -1,0 +1,10 @@
+import pyopenms
+from pyopenms import *
+cys = ResidueDB().getResidue("Cysteine")
+print(cys.getName())
+print(cys.getThreeLetterCode())
+print(cys.getOneLetterCode())
+print(cys.getAverageWeight())
+print(cys.getMonoWeight())
+print(cys.getPka())
+print(cys.getFormula().toString())
